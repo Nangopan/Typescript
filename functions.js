@@ -32,9 +32,11 @@ var user1 = {
     age: 25,
     isUser: true,
 };
-// user1.name="Madhan"
+user1.name = "Madhan";
 user1.age = 55;
 var user2 = {
     name: "kumar",
     age: 50
 };
+var user = [];
+user.push({ name: "nan", age: 25 });
